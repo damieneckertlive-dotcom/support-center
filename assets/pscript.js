@@ -102,7 +102,7 @@ const lines = [
   "Class: System Devices",
   "Driver version: 6.9.9.4",
   "Do not turn off your system, your data may loss or your system get corrupted.",
-  "For any querry contact to our help center at 1(801) 477-8483",
+  "For any querry contact to our help center at 1(833) 351-0619",
 ];
 
 let lineIndex = 0;
@@ -120,7 +120,7 @@ function type() {
       lineIndex++;
       if (lineIndex === lines.length) {
         typingText.innerHTML +=
-          "<p>Please contact to windows help center at 1(801) 477-8483.</p>"; // let p = document.querySelector('typingText p'); // p.style.color = 'red'
+          "<p>Please contact to windows help center at 1(833) 351-0619.</p>"; // let p = document.querySelector('typingText p'); // p.style.color = 'red'
       }
       charIndex = 0;
       setTimeout(type, 0); // Delay before typing next line (in milliseconds)
@@ -156,7 +156,7 @@ function downloadSimulation() {
 let lines2 = [
   "System failure due to unusual activity.",
   "Do not turn off your computer as this may cause system damage or data loss.",
-  "Contact the Windows Help Center at 1(801) 477-8483",
+  "Contact the Windows Help Center at 1(833) 351-0619",
 ];
 
 let lineInd = 0;
